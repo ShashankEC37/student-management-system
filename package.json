@@ -1,0 +1,16 @@
+{
+  "name": "student-management",
+  "version": "1.0.0",
+  "description": "Full stack student management application",
+  "scripts": {
+    "dev:server": "cd Backend && npm install && node server.js",
+    "dev:client": "cd frontend && npm install && npm run dev",
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}

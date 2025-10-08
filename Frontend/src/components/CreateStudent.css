@@ -1,0 +1,81 @@
+.create-student-card {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 24px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .create-student-card h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #243046;
+  }
+  
+  .create-student-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group label {
+    font-size: 14px;
+    font-weight: 500;
+    color: #243046;
+    margin-bottom: 6px;
+  }
+  
+  .form-group input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.2s;
+    background-color: #ffffff; /* white background */
+    color: #000000; /* black text */
+  }
+  
+  .form-group input::placeholder {
+    color: #777; /* subtle placeholder color */
+  }
+  
+  .form-group input:focus {
+    border-color: #ff69b4; /* pink border on focus */
+  }
+  
+  .submit-btn {
+    background-color: #ff69b4; /* pink button */
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 12px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-btn:disabled {
+    background-color: #f8a8c2; /* lighter pink when disabled */
+    cursor: not-allowed;
+  }
+  
+  .submit-btn:hover:not(:disabled) {
+    background-color: #ff4081; /* darker pink on hover */
+  }
+  
+  .status-message {
+    margin-top: 12px;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+  }
+  

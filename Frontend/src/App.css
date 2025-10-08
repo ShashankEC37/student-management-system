@@ -1,0 +1,146 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #FFEEF5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* App Container */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+/* Card */
+.card {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  width: 100%;
+}
+
+/* Header */
+.cardheader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.cardheader h1 {
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: #243046;
+}
+
+/* Create Student Button */
+.create-student-btn {
+  background-color: #FF4F81;
+  color: white;
+  border: none;
+  padding: 0.8rem 2rem;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-weight: bold;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 15px rgba(255, 79, 129, 0.3);
+}
+
+.create-student-btn:hover {
+  background-color: #ff3d78;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(255, 79, 129, 0.4);
+}
+
+/* Table Container */
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+}
+
+/* Student Table */
+.student-table {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+}
+
+.student-table th {
+  background-color: #FF4F81;
+  color: white;
+  padding: 1rem;
+  font-weight: bold;
+  font-size: 1.05rem;
+}
+
+.student-table td {
+  padding: 1rem;
+  border-bottom: 1px solid rgba(255, 79, 129, 0.15);
+  color: #333;
+}
+
+/* Actions Cell */
+.actions-cell {
+  display: flex;
+  gap: 0.7rem;
+  justify-content: center;
+}
+
+/* Edit Button */
+.edit-btn {
+  background-color: #FFEEF5;
+  color: #FF4F81;
+  border: 2px solid #FF4F81;
+  padding: 0.4rem 1rem;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.edit-btn:hover {
+  background-color: #FF4F81;
+  color: white;
+}
+
+/* Delete Button */
+.delete-btn {
+  background-color: #FF4F81;
+  color: white;
+  border: none;
+  padding: 0.4rem 1rem;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.delete-btn:hover {
+  background-color: #e23a68;
+}
+
+/* Empty Table Row */
+.no-students {
+  padding: 2rem;
+  color: #FF4F81;
+  font-style: italic;
+  text-align: center;
+}
